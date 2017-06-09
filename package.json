@@ -1,0 +1,13 @@
+{
+  "name": "create-shopify-pipeline",
+  "description": "Create and bootstrap a Shopify Pipeline project in second.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "create-shopify-pipeline": "index.js"
+  },
+  "dependencies": {
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
