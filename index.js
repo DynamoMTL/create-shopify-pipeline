@@ -43,7 +43,7 @@ const dirpath = path.resolve(dirname)
 // `create-shopify-pipeline MyShopifyTheme --interal-testing-repo=git+ssh://git@github.com:DynamoMTL/create-shopify-pipeline`
 const pkg = (() => {
   if (process.argv[3] && process.argv[3].startsWith('--internal-testing-repo')) {
-    return process.argv[3].replace('--internal-testing-repo=')
+    return process.argv[3].replace('--internal-testing-repo=', '')
   }
 
   return 'git+ssh://git@github.com:DynamoMTL/foobarify-wip.git'
@@ -52,7 +52,7 @@ const pkg = (() => {
 // Return the package name, even if the package is a git+ssh URL
 const pkgName = ((p) => {
   if (p.startsWith('git+ssh')) {
-    return p.split('/').pop().replace('.git', '')
+    return p.split('#').shift().split('/').pop().split('.').shift()
   }
 
   return p
@@ -164,7 +164,7 @@ function runPackageInit(root, packageName) {
   )
 
   // eslint-disable-next-line
-  require(initScript)()
+  require(initScript)(root)
 }
 
 // @TODO write to tmp directory and move it afterwards ?
