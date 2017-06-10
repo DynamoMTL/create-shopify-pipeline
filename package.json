@@ -8,6 +8,7 @@
     "create-shopify-pipeline": "index.js"
   },
   "dependencies": {
+    "tmp": "^0.0.31",
     "validate-npm-package-name": "^3.0.0"
   }
 }
