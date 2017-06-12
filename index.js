@@ -45,7 +45,7 @@ const pkg = (() => {
     return process.argv[3].replace('--internal-testing-repo=', '')
   }
 
-  return 'git+ssh://git@github.com:DynamoMTL/foobarify-wip.git'
+  return 'git+ssh://git@github.com:DynamoMTL/shopify-pipeline.git'
 })()
 
 // Return the package name, even if the package is a git+ssh URL
