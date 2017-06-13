@@ -1,9 +1,17 @@
 {
   "name": "create-shopify-pipeline",
-  "description": "Create and bootstrap a Shopify Pipeline project in second.",
+  "description": "Scaffold a Shopify Pipeline project in second.",
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DynamoMTL",
+  "bugs": {
+    "url": "https://github.com/DynamoMTL/create-shopify-pipeline/issues"
+  },
+  "engine": ">= 6.4.0",
   "bin": {
     "create-shopify-pipeline": "index.js"
   },
