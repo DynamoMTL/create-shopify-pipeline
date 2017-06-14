@@ -1,7 +1,7 @@
 {
   "name": "create-shopify-pipeline",
   "description": "Scaffold a Shopify Pipeline project in seconds!",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
