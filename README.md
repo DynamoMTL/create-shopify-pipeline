@@ -14,8 +14,15 @@ You can learn more about it here: https://github.com/DynamoMTL/shopify-pipeline.
 ## Getting Started
 
 ### Install with Yarn (recommended)
-```bash
+For `yarn >= 0.24.0`:
+```bash 
 $ yarn create shopify-pipeline MyShopifyTheme
+```
+
+For `yarn < 0.24.0`:
+```bash 
+$ yarn global add create-shopify-pipeline 
+$ create-shopify-pipeline MyShopifyTheme
 ```
 
 ### Install with NPM
