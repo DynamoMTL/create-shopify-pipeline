@@ -1,8 +1,14 @@
 # Create Shopify Pipeline - A project scaffolder for Shopify Pipeline
 
-(**Disclaimer:** This project is still in beta.)
+---
 
-`create-shopify-pipeline` is a companion tool to help scaffold Shopify Pipeline projects and easily get started on theme developement.
+**Important disclaimers:** 
+
+This project is still in beta.
+
+We are also looking for maintainers and contributors as Dynamo as a group **will not be continuing active maintainance and features development** for [Shopify Pipeline](https://github.com/DynamoMTL/shopify-pipeline) (and it's scaffolder [create-shopify-pipeline](https://github.com/DynamoMTL/create-shopify-pipeline)). -- See [#108](https://github.com/DynamoMTL/shopify-pipeline/issues/108).
+
+---
 
 ## What is Shopify Pipeline?
 It is a simple command line interface (CLI) which aims at giving you access to a better, smoother and more modern workflow for building, testing and deploying Shopify themes and websites.
